@@ -853,7 +853,9 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color: #fff;
 }
-
+ .forrm input a{
+color: rgb(111, 216, 79);
+}
 @media (min-width: 991px) {
   .bttn{
     margin-left: 5em;
