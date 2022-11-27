@@ -853,7 +853,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color: #fff;
 }
- .forrm input a{
+ .forrm input a span{
 color: rgb(111, 216, 79);
 }
 @media (min-width: 991px) {
