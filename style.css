@@ -959,3 +959,34 @@ color: rgb(111, 216, 79);
  }
 }
 /*# sourceMappingURL=style.css.map */
+iframe{
+  width: 800px;
+  height: 290px;
+ 
+  margin-left:250px;
+  display: flex;
+  background-color:rgba(111, 216, 79, 0) ;
+ 
+}
+@media (max-width: 450px){
+  iframe{
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+.logo{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate; 
+  animation:  glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+  from{
+    text-shadow: 0 0 10px #fff,0 0 20px #fff,
+    0 0 30px rgb(111, 216, 79),0 0 40px rgb(111, 216, 79),0 0 50px rgb(111, 216, 79), 0 0 60px rgb(111, 216, 79), 0 0 70px rgb(111, 216, 79);
+  }
+  to{
+    text-shadow: 0 0 10px #fff,0 0 20px #fff,
+    0 0 30px rgb(166, 236, 109),0 0 40px rgb(166, 236, 109),0 0 50px rgb(166, 236, 109), 0 0 60px rgb(166, 236, 109), 0 0 70px rgb(166, 236, 109);
+  
+  }
+}
