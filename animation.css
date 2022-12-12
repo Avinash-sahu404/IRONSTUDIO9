@@ -22,9 +22,9 @@ body{
 
 svg {
     display: block;
-    font: 8em '';
+    font: 10.5em '';
     width: 700px;
-    height: 190px;
+    height: 200px;
     margin: 0 auto ;
 }
 
@@ -32,7 +32,7 @@ svg {
     fill: none;
     stroke: white;
     stroke-dasharray: 6% 29%;
-    stroke-width: 10px;
+    stroke-width: 6px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
