@@ -30,7 +30,7 @@ svg {
 
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke:red;
     stroke-dasharray: 6% 29%;
     stroke-width: 6px;
     stroke-dashoffset: 0%;
