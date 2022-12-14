@@ -38,12 +38,12 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: #e0e0e0;
+	stroke: red;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #e0e0e0;
+	stroke: red;
 	animation-delay: -2s;
 }
 
@@ -53,7 +53,7 @@ svg {
 }
 
 .text-copy:nth-child(4){
-	stroke: #e0e0e0;
+	stroke: red;
 	animation-delay: -4s;
 }
 
