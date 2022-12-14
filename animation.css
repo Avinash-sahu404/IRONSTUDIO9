@@ -58,7 +58,7 @@ svg {
 }
 
 .text-copy:nth-child(5){
-	stroke:  rgb(111, 216, 79);
+	stroke: darkgreen;
 	animation-delay: -5s;
 }
 
