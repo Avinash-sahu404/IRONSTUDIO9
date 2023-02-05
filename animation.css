@@ -15,7 +15,7 @@ body{
 
 .conic {
   display: flex;
-/*   border:1px solid offwhite; */
+/*   border:1px solid white; */
   height: 100%;
   align-items: center;
 }
@@ -30,7 +30,7 @@ svg {
 
 .text-copy {
     fill: none;
-    stroke:offwhite;
+    stroke:white;
     stroke-dasharray: 6% 29%;
     stroke-width: 6px;
     stroke-dashoffset: 0%;
@@ -48,7 +48,7 @@ svg {
 }
 
 .text-copy:nth-child(3){
-	stroke:offwhite;
+	stroke:white;
 	animation-delay: -3s;
 }
 
@@ -58,7 +58,7 @@ svg {
 }
 
 .text-copy:nth-child(5){
-	stroke: offwhite;
+	stroke:white;
 	animation-delay: -5s;
 }
 
