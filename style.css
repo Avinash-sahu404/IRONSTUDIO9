@@ -8,7 +8,7 @@
     padding: 20px;
     border: 1px solid black;
     max-width: 80%;
-    display: none;
+    display: block;
   }
 
   .popup img {
