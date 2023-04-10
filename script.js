@@ -83,3 +83,20 @@ $(function() {
       $(".custom-close").click(function() {
         $("custom-social-proof").stop().slideToggle('slow');
       });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var popupAd = document.getElementById('popup-ad');
+  var closeButton = document.getElementById('close-button');
+
+  closeButton.addEventListener('click', function() {
+    popupAd.style.display = 'none';
+  });
+
+  // Show the popup ad after a delay (e.g. 5 seconds)
+  setTimeout(function() {
+    popupAd.style.display = 'block';
+  }, 5000);
+});
+
+
