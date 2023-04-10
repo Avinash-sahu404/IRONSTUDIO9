@@ -85,7 +85,7 @@ $(function() {
       });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+
   var popupAd = document.getElementById('popup-ad');
   var closeButton = document.getElementById('close-button');
 
@@ -97,6 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     popupAd.style.display = 'block';
   }, 5000);
-});
+
 
 
