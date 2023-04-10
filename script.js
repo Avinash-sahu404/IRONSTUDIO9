@@ -86,17 +86,20 @@ $(function() {
 
 
 
-  var popupAd = document.getElementById('popup-ad');
-  var closeButton = document.getElementById('close-button');
+  
+  // Get references to the pop-up ad and close button
+  var popupAd = document.getElementById("popupAd");
+  var closeButton = document.getElementById("closeButton");
 
-  closeButton.addEventListener('click', function() {
-    popupAd.style.display = 'none';
+  // Add event listener to close button
+  closeButton.addEventListener("click", function() {
+    popupAd.style.display = "none";
   });
 
-  // Show the popup ad after a delay (e.g. 5 seconds)
+  // Show the pop-up ad after a delay (e.g., 5 seconds)
   setTimeout(function() {
-    popupAd.style.display = 'block';
-  }, 5000);
+    popupAd.style.display = "block";
+  }, 5000); 
 
 
 
